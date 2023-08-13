@@ -15,7 +15,7 @@ const Testimonials = () => {
                         <div className="carousel-inner">
                             
                             <Testimonial/>
-                            
+                                                        
                         </div>
                         <div className="carousel_btn_box">
                             <a className="carousel-control-prev" href="#carouselExample3Controls" role="button" data-slide="prev">

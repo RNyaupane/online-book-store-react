@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Slider = () => {
     return (
         <>
             <section className="slider_section ">
+            
                 <div className="slider_bg_box d-flex justify-content-end bg-light ">
                     <img src="https://shortiedesigns.com/wp-content/uploads/2019/01/website-design-brisbane-shortie-designs.svg" alt="" style={{height: '580px', width: '600px'}}/>
                 </div>
@@ -26,9 +28,9 @@ const Slider = () => {
                                                 Look no further! We're delighted to offer you an incredible 20% discount on every book in our store.
                                             </p>
                                             <div className="btn-box">
-                                                <a href="" className="btn1">
+                                                <Link to="/products" className="btn1">
                                                     Shop Now
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -61,6 +63,7 @@ const Slider = () => {
                                 </div>
                             </div>
                         </div>
+                        <img className='d-none d-md-block' src="https://shortiedesigns.com/wp-content/uploads/2019/01/website-design-brisbane-shortie-designs.svg" alt="" style={{height: '580px', width: '600px', marginLeft:"50%"}}/>
                     </div>
                 </div>
             </section>

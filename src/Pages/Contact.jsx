@@ -12,14 +12,14 @@ const Contact = () => {
             </div>
             <div className="row">
                <div className="col-lg-8 offset-lg-2">
-                  <div className="full">
+                  <div className="full p-5" style={{backgroundColor:"#002c3e", borderRadius:"1.5rem"}}>
                      <form action="index.html">
                         <fieldset>
-                           <input type="text" placeholder="Enter your full name" name="name" required />
-                           <input type="email" placeholder="Enter your email address" name="email" required />
-                           <input type="text" placeholder="Enter subject" name="subject" required />
-                           <textarea placeholder="Enter your message" required></textarea>
-                           <input type="submit" value="Submit" />
+                           <input className='bg-transparent text-white rounded-lg' type="text" placeholder="Enter your full name" name="name" required />
+                           <input className='bg-transparent text-white rounded-lg' type="email" placeholder="Enter your email address" name="email" required />
+                           <input className='bg-transparent text-white rounded-lg' type="text" placeholder="Enter subject" name="subject" required />
+                           <textarea className='bg-transparent text-white rounded-lg' placeholder="Enter your message" required></textarea>
+                           <input type="submit"  value="Submit" style={{backgroundColor:"#f7444e"}} className='rounded-lg'/>
                         </fieldset>
                      </form>
                   </div>
