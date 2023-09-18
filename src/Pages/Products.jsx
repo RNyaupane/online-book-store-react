@@ -29,6 +29,7 @@ const Products = () => {
                   <ProductCard />
                   <ProductCard />
                   <ProductCard />
+                  <ProductCard />
 
                </div>
                <div className="btn-box">
